@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+body {margin: 0;}
+.span {
+font-style: italic;
+  background-color: darkturquoise;
+  color: gold;
+}
+.foond {
+  font-style: inherit;
+  color: deeppink;
+  background-color: grey; font-weight: 900;
+}
+.fff {font-style: italic;
+margin: 40px;}
+.rest {display: block; background-color: aqua;
+   text-align: center; display: inline-block;}
+.dar {text-align: center; f;}
+.papa {border-style: solid;
+   color: rgb(43, 226, 156);
+  display: inline-block;
+  border-width: 1px;
+  padding-right: 25px;
+}
+.ui {float: right; width: 400px;
+
+}
+.nav {display: flex;
+  justify-content: space-between;
+}
+.nav>nav>ul {display: flex;
+  list-style: none;
+}
+.nav>nav>ul>li {
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+}
+.page {display: flex; justify-content: end;
+}
+.section {width: 200px; background-color: aqua;
+}
+.section2 {width: 400px; background-color: brown;
+}
+/* новая страница */
+.header1 {
+  text-align: center;
+  font-family: fantasy;
+}
+.header2 {font-weight: bolder;
+  text-transform: uppercase;
+  border-bottom: 3px solid blue;
+  margin-top: 30px;
+}
+.header3 {font-size: small;
+
+}
+.paragraph1 {font-style: oblique; 
+  background-color: chocolate;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.figure1 {background-color: brown;
+}
+.div1 {background-color: cornflowerblue;}
+.I12345 {background-color: darkkhaki
+  bottom: ;
+}
+.th1 {border: 1xp solid black;}
+.t1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.t2 {font-size: 300%;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: overline;
+  background-image: -o-linear-gradient(to bottom, green, aqua);
+}
+/* добавление фона сайта */
+.y7 {background-image: url(https://avatars.mds.yandex.net/i?id=bf008c04992b7ffe38adc908225c9e89_l-10096959-images-thumbs&n=13.jpg);
+  background-position: left;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 600px 500px;
+  margin: 20px;
+}
+.tt {box-sizing: border-box;
+  width: 500px;
+  height: 150px;
+  background-color: crimson;
+  border: 5px solid black;
+  /* прачем все что выходит за контур*/
+  overflow: hidden;
+  /* отступ в боксе */
+  padding-left: 6em;
+  /* стиль границы */
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+  border-width: 16px ;
+  /* закругление */
+  border-top-right-radius: 150px;
+}
+/* тень блока */
+.y8 {box-sizing: border-box;
+  width: 400px;
+  height: 250px;
+  background-color: darkgoldenrod;
+  box-shadow: 50px 50px  red;
+}
+/* адаптирование картинки и текста */
+.y9 {position: relative; 
+  top: 2em;
+  left: 5em;
+  float: right;
+  box-sizing: border-box;
+  width: 700px;
+  height: 400px;
+  padding-left: 18em;
+  background-color: beige;
+}
+/* при абсолютном позицианировании элементы накладываются */
+.y10 {float: left;}
+.A {position: absolute;
+  width: 50px;
+  top: 5000px;
+  left: 200px;
+}
+.B {position: absolute;
+  width: 50px;
+  top: 5100px;
+  left: 200px;
+}
+.C {position: absolute;
+  width: 50px;
+  top: 5200px;
+  left: 200px;
+}
+/* фиксированное расположение на экране */
+.D {position: fixed;
+  top: 30px;
+  left: 50px;
+  background-color: blue;
+}
+.s0 {background-color: aquamarine;
+  font-style: italic;
+}
+.M {position: absolute;
+  left: 100px;
+}
+.u1 {font-style: italic;
+  color: crimson;
+  text-align: center;
+}
+.u2 {background-color: bisque;
+
+}
+.u3 {display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: row dense;
+  gap: 10px;
+}
+img {border-style: double;
+   color: chocolate; text-align: ;
+}
+.u4{background-color: darkslategrey;
+
+}
+.u5 {border-style: dotted; 
+  border-color: cornflowerblue;
+
+}
+/* объединение классов */
+.u7,
+.u6 {font-style: italic; color: brown;}
+.u8 {
+  color: palevioletred;
+  font-weight: bold;
+}
+
+.u9 {
+  background-color: yellow;
+  padding: 10px;}
+.che5{font-size: larger;
+   text-align: right;}
+
+.pat{font-family: 'Bokor', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.shest{font-size: large; font-weight: 900; line-height: 200px; text-align: center;}
+.sem {font-family: 'Bokor', system-ui;
+  font-weight: 400;
+  font-style: normal; background-color: azure;}
+.vosem {display:flex; 
+  background-color: beige; 
+  justify-content: right; 
+  width: 600px; }
+.devat {display:flex; border-radius: 40px; padding: 7px;}
