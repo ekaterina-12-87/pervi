@@ -1,341 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="css/styles/style.css" />
+    <link rel="stylesheet" href="css/styles/style.css" />
 
-  <head>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
+    </head>
 
-  <body class="y7">
-    <!-- заголовок -->
-    <header>
-      <h1 class="header1">Заголовок 1</h1>
-      <h2 class="header2">заголовок 2</h2>
-      <h3 class="header3">заголовок 3</h3>
-      <h4>заголовок 4</h4>
-      <h5>заголовок 5</h5>
-      <h6>заголовок 6</h6>
-    </header>
-    <!-- em курсив -->
-    <p class="paragraph1">
-      <em> Параграф Параграф Параграф Параграф </em>камень камень камень камень
-      камень камень камень камень камень камень камень камень камень камень
-      камень камень камень камень камень
-      ддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддд
-      ддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддд
-      дддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддддд
-    </p>
-    <!-- линейка -->
-    <hr />
-    <!-- номерной список -->
-    <ol start="22">
-      <li>первый</li>
-      <li>второй</li>
-      <li>третий</li>
-    </ol>
-    <!-- список с точками -->
-    <ul>
-      <li>первый</li>
-      <li>второй</li>
-      <li>третий</li>
-    </ul>
-    <!-- картинка -->
-    <img
-      src="https://static2.tgcnt.ru/posts/_0/ac/acc3d2db8026fdaf0e5a3cab8ead3213.jpg"
-      alt="tttttttttttt"
-      width="150px"
-    />
-    <p id="I1">пишу для ссылки</p>
-    <!-- список описаний -->
-    <dl>
-      <dt>определение</dt>
-      <dd>слово</dd>
-      <dd>слово</dd>
-      <dt>определение</dt>
-      <dd>слово</dd>
-      <dd>слово</dd>
-    </dl>
-    <!-- цитата -->
-    <blockquote>
-      <p>
-        Отсутствие метрической системы, <cite> вставка</cite> в Америке до сих
-        пор пользуются фунтами, ярдами, унциями, галлонами, в то время как
-        абсолютное большинство стран перешло на метрическую систему. Доступность
-        оружия, приезжим его не продают и нужна лицензия, но они всё равно
-        умудряются приобретать оружие откуда угодно.
-      </p>
-      <p>
-        tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
-        ttttttttttttttttt
-      </p>
-    </blockquote>
-    <!-- не удаляет пробелы -->
-    <pre>dddddd           ttttttt            jjjjjjjj       iiiiiiii</pre>
-    <figure class="figure1">
-      <pre>фигура</pre>
-      <pre>фигура</pre>
-    </figure>
-    <!-- нижний заголовок -->
-    <footer>внизу</footer>
-    <!-- секция -->
-    <section>
-      <ul>
-        <li>крот</li>
-        <li>крот</li>
-        <li>крот</li>
-      </ul>
-    </section>
-    <!-- статья -->
-    <article>
-      <ol>
-        <li>r</li>
-        <li>r</li>
-        <li>r</li>
-      </ol>
-    </article>
-    <!-- в секцию можно вкладывать статью -->
-    <!-- врезка -->
-    <aside>
-      <img
-        src="https://i.pinimg.com/736x/31/6d/81/316d811565a9fa4251b55a6c88480268.jpg"
-        alt=""
-        width="400px"
-      />
-      <img
-        src="https://i.pinimg.com/736x/28/48/47/28484757ad1fc5805bb2d12c230a3c78.jpg"
-        alt=""
-        width="200px"
-      />
-    </aside>
-    <strong>очень важно</strong>
-    <b>полужирный</b>
-    <i>курсив</i>
-    <s>перечёркнутый</s>
-    <u>подчеркивание</u>
-    <small>мелкий</small>
-    <!-- короткая цитата -->
-    <q>короткая цитата</q>
-    <!-- аббревиатура -->
-    <abbr title="American Type Founders">ATF</abbr>
-    <!-- использование  верхних и нижних индексов-->
-    <p>h<sub>2</sub>o 2<sup>2</sup>=4</p>
-    <!-- дата  и время -->
-    <time datetime="21:30">9:30pm</time>
-    <time datetime="2016-07-17">July 17</time>
-    <!-- представление в компьютере -->
-    <data value="8-977-778-41-77">CSS: datatest</data>
-    <!-- вставленные и удалённые элементы(правки) -->
-    <ins>вставленные</ins>
-    <!-- разрыв -->
-    <br />
-    <del>удалённые</del>
-    <!-- разрыв слова, если не помещается в строке разрывается в конце строки -->
-    <p>
-      uuuuuuuuuuuuuu<wbr />uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<wbr />uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<wbr />uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<wbr />uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-    </p>
-    <!-- группировка -->
-    <div class="div1">
-      <p>контейнер</p>
-      <img
-        src="https://avatars.dzeninfra.ru/get-zen_brief/6354854/pub_62a2d6153e862c25225f9d09_62a2d62d195e6c03d3cf5e59/scale_1200"
-        alt=""
-      />
-      <!-- контейнер, но толькл для строк, -->
-    </div>
-    <span id="I12345">
-      <li>только</li>
-      <li>для</li>
-      <li>строк</li>
-      <!-- id только один раз class можно несколько раз -->
-      <!-- ссылка -->
-      <a href="https://e.mospolytech.ru/#/schedule/current">90</a>
-    </span>
-    <!-- ссылка на фрагмент документа -->
-    <a href="#I1">ссылка на начало</a>
-    <!-- ссылка на фрагмент другой страницы -->
-    <a href="page.html#I1">ещё ссылка</a>
-    <!-- ссылка на почту -->
-    <a href="mailto:ekaterinaste@inbox.ru">почта</a>
-    <!-- ссылка на телефонный номер -->
-    <a href="tel:+7-977-778-41-77">телефон</a>
-    <!-- изображение векторная графика -->
-    <object
-      data="https://avatars.dzeninfra.ru/get-zen_brief/6354854/pub_62a2d6153e862c25225f9d09_62a2d62d195e6c03d3cf5e59/scale_1200"
-      type="image/svg+xml"
-    ></object>
-    <!-- таблица -->
+    <body>
+      <p>flex</p>
+      <div class="flex-container">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+        
+        <div>display: flex + flex-direction: row-reverse</div>
+        <div class="flex-container flex-row-reverse">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
 
-    <table>
-      <tr>
-        <th class="th1">значение1</th>
-        <th class="th1">значение1</th>
-        <th class="th1">значение1</th>
-      </tr>
-      <tr>
-        <td>очень</td>
-        <td>очень</td>
-        <td>очень</td>
-      </tr>
-    </table>
-    <style>
-      td,
-      th {
-        border: 3px solid gray;
-      }
-    </style>
-    <!-- растяжение столбца -->
-    <table>
-      <tr>
-        <th colspan="2">жир</th>
-      </tr>
-      <tr>
-        <td>суббота</td>
-        <td>воскресенье</td>
-      </tr>
-    </table>
-    <!-- растяжение строки -->
-    <caption>
-      пример
-    </caption>
-    <table>
-      <tr>
-        <th rowspan="3">настройки</th>
-        <td>1</td>
-      </tr>
+        <div>display: flex + flex-direction: column</div>
+        <div class="flex-container flex-column">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
 
-      <tr>
-        <!-- связывает заголовок со столбцом -->
-        <th scope="row">Math</th>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>5</td>
-      </tr>
-    </table>
-    <!-- группировка -->
-    <table cellpadding="10" ; border="1">
-      <thead>
-        <tr>
-          <th>12</th>
-          <th>12</th>
-          <th>12</th>
-        </tr>
-        <!-- группировка в голове -->
-        <thead bgcolor="gray">
-          <tr>
-            <td colspan="3" align="center">34</td>
-            <td>34</td>
-            <td>34</td>
-          </tr>
-        </thead>
-        <tr></tr>
-      </thead>
-      <!-- группировка в теле -->
-      <tbody>
-        <tr>
-          <td rowspan="4">56</td>
-          <td>56</td>
-          <td>56</td>
-        </tr>
-        <tr>
-          <colgroup>
-            <td>78</td>
-            <td>78</td>
-            <td>78</td>
-          </colgroup>
-        </tr>
-        <tr>
-          <td>90</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-        </tr>
-      </tfoot>
-    </table>
-    <!-- формы -->
-    <form action="page3.php" method="post">
-      <fieldset>
-        <legend>легенда</legend>
-        <input type="text" value="text" placeholder="input1" />
-        <input type="button" value="push me" />
-        <label>ok<input type="checkbox" /></label>
-        <input type="radio" />
-        <input type="reset" />
-        <input type="date" />
-      </fieldset>
-      <textarea cols="5" rows="6"></textarea>
-      <select name="secectum" id="" size="2">
-        <option value="1">skill</option>
-        <option value="2">haha</option>
-        <optgroup label="tradifional">
-          <option>food</option>
-          <option>music</option>
-          <option>dances</option>
-        </optgroup>
-      </select>
-      <input type="file" />
-      <input type="time" />
-      <input type="number" />
-      <input type="range" />
-      <input type="color" />
-      <progress max="100">0</progress>
-      <meter min="0" max="100">60%</meter>
-    </form>
-    <!-- дополнительное окно -->
-    <iframe src="index.html" width="400" height="300"
-      >Read the <a href="index.html">как это работает</a></iframe
-    >
-    <!-- плагин -->
-    <embed type="video/quictime" src="https://youtu.be/1lVOTekmN7w.mov" />
-    <object
-      data="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/TikhonovaAnna/phpcQ9ce8.svg"
-      type="image"
-    >
-      <img
-        src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/TikhonovaAnna/phpcQ9ce8.jpeg"
-        alt=""
-      />
-    </object>
-    <object data="" type="video/quictime"></object>
-    <!-- стили -->
-    <!-- название шрифта -->
-    <p id="t1">название шрифта</p>
-    <p class="t2">название шрифта</p>
-    <p class="tt">
-      TEXTEXTEXhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-      uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-    </p>
-    <p class="y8">
-      Такое впечатление, что когда-то родители Биги поняли, что их сын —
-      гомосексуал, и решили искоренить это «словом Божьим», отдав его в секту.
-      Скорее всего, у этой секты есть целая группа подростков, которых
-      перевоспитывают, избавляя от гомосексуальности. Жаль бедных детей...
-    </p>
+        <div>display: flex-container flex-column-reverse</div>
+        <div class="flex-container flex-column-reverse">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+
+        <div>display: flex + flex-wrap: nowrap (по умолчания)</div>
+        <div class="flex-container">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+          <div class="flex-element">
+            Элемент 3
+          </div>
+          <div class="flex-element">
+            Элемент 4
+          </div>
+          <div class="flex-element">
+            Элемент 5
+          </div>
+          <div class="flex-element">
+            Элемент 6
+          </div>
+          <div class="flex-element">
+            Элемент 7
+          </div>
+          <div class="flex-element">
+            Элемент 8
+          </div>
+          <div class="flex-element">
+            Элемент 9
+          </div>
+          <div class="flex-element">
+            Элемент 10
+          </div>
+        </div>
+        <br/>
+
+        <div>display: flex + flex-wrap: wrap</div>
+        <div class="flex-container flex-wrap">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+          <div class="flex-element">
+            Элемент 3
+          </div>
+          <div class="flex-element">
+            Элемент 4
+          </div>
+          <div class="flex-element">
+            Элемент 5
+          </div>
+          <div class="flex-element">
+            Элемент 6
+          </div>
+          <div class="flex-element">
+            Элемент 7
+          </div>
+          <div class="flex-element">
+            Элемент 8
+          </div>
+          <div class="flex-element">
+            Элемент 9
+          </div>
+          <div class="flex-element">
+            Элемент 10
+          </div>
+        </div>
+        <br/>
+
+        <div>display: flex + flex-wrap: wrap-reverse</div>
+        <div class="flex-container flex-wrap-reverse">
+          <div class="flex-element">
+            Элемент 1
+          </div>
+          <div class="flex-element">
+            Элемент 2
+          </div>
+          <div class="flex-element">
+            Элемент 3
+          </div>
+          <div class="flex-element">
+            Элемент 4
+          </div>
+          <div class="flex-element">
+            Элемент 5
+          </div>
+          <div class="flex-element">
+            Элемент 6
+          </div>
+          <div class="flex-element">
+            Элемент 7
+          </div>
+          <div class="flex-element">
+            Элемент 8
+          </div>
+          <div class="flex-element">
+            Элемент 9
+          </div>
+          <div class="flex-element">
+            Элемент 10
+          </div>
+        </div>
+        <br/>
+
+        <div>flex-grow</div>
+        <div class="flex-container">
+          <div class="flex-element1">
+            Элемент 1
+          </div>
+          <div class="flex-element1">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+
+        <div> not flex-grow</div>
+        <div class="flex-container">
+          <div class="flex-element2">
+            Элемент 1
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+
+        <div> flex-grow точечно</div>
+        <div class="flex-container">
+          <div class="flex-element1">
+            Элемент 1
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+<!--элементы 3 будут сужаться чтобы все элементы поместились-->
+        <div> flex-shrink насторойка сужения под ширину</div>
+        <div class="flex-container">
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+          <div class="flex-element3">
+            Элемент 3
+          </div>
+          <div class="flex-element2">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+<!--задание первичного размера-->
+        <div class="flex-container">
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+        </div>
+        <br/>
+
+        <!--задание очереди-->
+        <div>order</div>
+        <div class="flex-container">
+          <div class="flex-element4 first-order">
+            Элемент 1
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4 last-order">
+            Элемент 4
+          </div>
+        </div>
+        <br/>
+
+        <div>выравнивание по началу/концу</div>
+        <div class="flex-container justify-content-flex-start">
+          <div class="flex-element4">
+            Элемент 1
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4 last-order">
+            Элемент 4
+          </div>
+        </div>
+        <br/>
+
+        <div>выравнивание по расстояние между блоками</div>
+        <div class="flex-container justify-content-space-between">
+          <div class="flex-element4">
+            Элемент 1
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4 last-order">
+            Элемент 4
+          </div>
+        </div>
+        <br/>
+
+        <!--изменение позиции относительно флекса по побочной оси-->
+        <div>выравнивание по расстояние между блоками</div>
+        <div class="flex-container1 align-items-floor">
+          <div class="flex-element4">
+            Элемент 1
+          </div>
+          <div class="flex-element4">
+            Элемент 2
+          </div>
+          <div class="flex-element4">
+            Элемент 3
+          </div>
+          <div class="flex-element4 last-order">
+            Элемент 4
+          </div>
+        </div>
+        <br/>
+
+        <h1 style="background-color: navy;">Задание цвета при помощи имени</h1>
+        <h1 style="background-color: #ff5733;">Задание цвета при помощи HEX</h1>
+        <h1 style="background-color: rgba(255, 0, 255, 0.5)">Задание цвета при помощи RGBA</h1>
+        <h1 style="background-color: hsl(12, 100%, 60%);">Задание цвета при помощи HSL</h1>
+        <h1 style="background-color: hsla(12, 100%, 60%, 0.5);">Задание цвета при помощи HSLA</h1>
+
+        <!--относительный путь-->
+        <img src="главное.png" alt="", width="300">
+
+        <!--абсолютный путь-->
+        <img src="https://i.pinimg.com/736x/df/a1/55/dfa1552c58e708b604bdfa27191719a8.jpg" alt="", width="200">
+
+        <!--относительный корневой путь-->
+        <img src="..\testing\главное.png" alt="", width="200">
+
+
+
+
+        
+
+
+
     
-    <img class="y10"
-      src="https://i.pinimg.com/736x/4d/dd/23/4ddd2338efe44d78d927b7db2933eb16.jpg"
-      alt=""
-      width="250"
-    />
-    <p class="y9">
-        Я идентифицирую себя как RCTA-персону в виде Центрального Российского
-        Банка. Пожалуйста, передайте мне на хранение ваши денежные средства, иначе
-        мне будет некомфортно, так как вы меня оскорбляете ljvf ljvf vfj jkd fj jj
-        hjkhkjh jkhkjh hjkhk hkhk ggh ghgh gg gggghg ggui kl;k kkl k;k;kl l;k;k;
-        ccc llmkkl l;ll;kl sfsfdf ffcttft ftddft uhuiu iioui uioui uiuiuio uiuiuio
-        uiouiui uiuio uiuiui iuouiouio uiouio uioui uiouio uioui uiiuo iuou uioui
-        uiuiuio uioiuo uiouoi uioiou uio 6rtrhr dhtrhr
-      </p>
-    <p class="A"><img src="https://avatars.mds.yandex.net/i?id=37f1500de6cd836bfa38ce9a61eedbd5_l-5886727-images-thumbs&n=13" alt=""></p>
-    <p class="B"><img src="https://avatars.mds.yandex.net/i?id=37f1500de6cd836bfa38ce9a61eedbd5_l-5886727-images-thumbs&n=13" alt=""></p>
-    <p class="C"><img src="https://avatars.mds.yandex.net/i?id=37f1500de6cd836bfa38ce9a61eedbd5_l-5886727-images-thumbs&n=13" alt=""></p>
-    <p class="D">tttt</p>
-  </body>
+  
+  
+    </body>
     
 </html>
